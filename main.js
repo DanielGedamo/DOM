@@ -29,20 +29,41 @@
 //         elementArra[i].innerText= text;
 //     }
 // }soumfuonc("bay","hay mami")
-function soumfuonc() {
-  var userNum = +prompt("enter num");
+// function soumfuonc() {
+//   var userNum = +prompt("enter num");
 
-  for (var i = 0; i < userNum; i++) {
-    var stors = {
-      storName: prompt("enter name"),
-      addres: prompt("enter the addres"),
-      numOfEmployees: +prompt("enter number of Employees"),
-      numOfsecsen: +prompt("enter num of secsen")
-    };
-    if(stors.numOfEmployees>10){
-        document.write('<p>'+ storName + '</p>' +'<p>'+ numOfsecsen + '</p>'+'<p>'+ addres + '</p>'+'<p>'+ numOfEmployees + '</p>');
+//   for (var i = 0; i < userNum; i++) {
+//     var stors = {
+//       storName: prompt("enter name"),
+//       addres: prompt("enter the addres"),
+//       numOfEmployees: +prompt("enter number of Employees"),
+//       numOfsecsen: +prompt("enter num of secsen")
+//     };
+//     if(stors.numOfEmployees>10){
+//         document.write('<p>'+ storName + '</p>' +'<p>'+ numOfsecsen + '</p>'+'<p>'+ addres + '</p>'+'<p>'+ numOfEmployees + '</p>');
         
-    };
-  };
-  var numOfPrint ()
-};soumfuonc() 
+//     };
+//   };
+//   var numOfPrint ()
+// };soumfuonc() 
+// 13
+// function getAge (){
+// var profile ={
+// firstName : prompt('enter name'),
+// LeastName : prompt('enter lest name'),
+// age : prompt('enter  age')
+// }
+// document.write(profile.firstName+" "+profile.LeastName+" "+profile.age)
+// if(profile.age>18 ){
+// document.write('<br><input>' )
+// }
+// }getAge ()
+function getmove (){
+  var myMove ={
+  moveName : prompt('enter name'),
+  numberOfView : prompt( 'num fo view'),
+  year : prompt('yeat'),
+  picture : prompt("enter pic")
+}
+document.write(myMove.moveName+" "+numberOfView+" "+year+" "+)
+}
