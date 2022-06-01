@@ -41,11 +41,11 @@
 //     };
 //     if(stors.numOfEmployees>10){
 //         document.write('<p>'+ storName + '</p>' +'<p>'+ numOfsecsen + '</p>'+'<p>'+ addres + '</p>'+'<p>'+ numOfEmployees + '</p>');
-        
+
 //     };
 //   };
 //   var numOfPrint ()
-// };soumfuonc() 
+// };soumfuonc()
 // 13
 // function getAge (){
 // var profile ={
@@ -58,12 +58,47 @@
 // document.write('<br><input>' )
 // }
 // }getAge ()
-function getmove (){
-  var myMove ={
-  moveName : prompt('enter name'),
-  numberOfView : prompt( 'num fo view'),
-  year : prompt('yeat'),
-  picture : prompt("enter pic")
-}
-document.write(myMove.moveName+" "+numberOfView+" "+year+" "+)
-}
+// function getmove (num){
+//   for( var i = 0; i<num; i++){
+//   var myMove ={
+//   moveName : prompt('enter name'),
+//   numberOfView : prompt( 'num fo view'),
+//   year : +prompt('yeat'),
+// //   picture : prompt("enter pic")
+// // }
+// // document.write(myMove.moveName+" "+'<br>'+myMove.numberOfView+" "+'<br>'+myMove.year+" "+'<br>'+myMove.picture.+'<br>' )
+// //   }
+// // }getmove (3)
+// // var Worker = {
+// //   firstName : prompt("enter firt name" ),
+// //   leastName : prompt("enter leasname"),
+// //   email : prompt("enter email"),
+// //   Department :prompt("enter Department")
+
+// // }
+// // document.write("<h1>"+Worker.firstName+"</h1>"+" "+"<h3>"+Worker.leastName+"</h3>"+ " "+"<p>"+" "+Worker.email+"</p>"+" "+"<p>"+Worker.Department+"</p>")
+// function getBuilding(num1) {
+//   for (var i = 0; i < num1; i++) {
+//     var contractor = {
+//       ontractorname: prompt("enter constractor name"),
+//       nameOfCompany: prompt("enter name of Company"),
+//       numberOfFloors: prompt("enter Floors number"),
+//     };
+  
+//    document.write(
+//     "<b>" +
+//       contractor.ontractorname +
+//       "</b>" +
+//       " " +
+//       "<h4>" +
+//       contractor.nameOfCompany +
+//       "</h4>" +
+//       " " +
+//       "<h1>" +
+//       contractor.numberOfFloors +
+//       "</h1>"
+    
+//     );
+//   } 
+// }
+// getBuilding(3);
